@@ -1,0 +1,131 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_10 
+REMARK    4  A    between atoms: SG_6  and  CB_5 
+REMARK    5  A    between atoms: SG_6  and  C20_45 
+REMARK    6  A    between atoms: N_10  and  CA_11 
+REMARK    7  A    between atoms: CA_11  and  C_12 
+REMARK    8  A    between atoms: CA_11  and  CB_14 
+REMARK    9  A    between atoms: CB_14  and  CG_15 
+REMARK       I    between atoms: C02_27  and  C03_28 
+REMARK       I    between atoms: C03_28  and  C04_29 
+REMARK       I    between atoms: C04_29  and  C05_30 
+REMARK       I    between atoms: C05_30  and  C06_31 
+REMARK       I    between atoms: C06_31  and  C07_32 
+REMARK       I    between atoms: C07_32  and  C08_33 
+REMARK       I    between atoms: C08_33  and  C09_34 
+REMARK       I    between atoms: C09_34  and  C10_35 
+REMARK       I    between atoms: C10_35  and  C11_36 
+REMARK       I    between atoms: C11_36  and  C12_37 
+REMARK       I    between atoms: C12_37  and  C13_38 
+REMARK       I    between atoms: C13_38  and  C14_39 
+REMARK       I    between atoms: C14_39  and  C15_40 
+REMARK       I    between atoms: C15_40  and  C16_41 
+REMARK       I    between atoms: C16_41  and  O17_42 
+REMARK       I    between atoms: C18_43  and  O17_42 
+REMARK       I    between atoms: C18_43  and  C19_44 
+REMARK       I    between atoms: C19_44  and  C20_45 
+REMARK       I    between atoms: C19_44  and  O21_46 
+REMARK       I    between atoms: C22_47  and  O21_46 
+REMARK       I    between atoms: C22_47  and  C23_48 
+REMARK       I    between atoms: C23_48  and  C24_49 
+REMARK       I    between atoms: C24_49  and  C25_50 
+REMARK       I    between atoms: C25_50  and  C26_51 
+REMARK       I    between atoms: C26_51  and  C27_52 
+REMARK       I    between atoms: C27_52  and  C28_53 
+REMARK       I    between atoms: C28_53  and  C29_54 
+REMARK       I    between atoms: C29_54  and  C30_55 
+REMARK       I    between atoms: C30_55  and  C31_56 
+REMARK       I    between atoms: C31_56  and  C32_57 
+REMARK       I    between atoms: C32_57  and  C33_58 
+REMARK       I    between atoms: C33_58  and  C34_59 
+REMARK       I    between atoms: C34_59  and  C35_60 
+REMARK       I    between atoms: C35_60  and  C36_61 
+ROOT
+ATOM      1  N   CYS C  11      28.536 -42.247  40.877  1.00 65.49    -0.066 N 
+ATOM      2  H1  CYS C  11      29.226 -41.637  41.290  1.00  0.00     0.275 HD
+ATOM      3  H2  CYS C  11      28.530 -42.118  39.875  1.00  0.00     0.275 HD
+ATOM      4  H3  CYS C  11      28.764 -43.207  41.092  1.00  0.00     0.275 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  CYS C  11      27.220 -41.928  41.415  1.00 62.30     0.283 C 
+BRANCH   5   6
+ATOM      6  C   CYS C  11      27.284 -42.164  42.899  1.00 64.07     0.249 C 
+ATOM      7  N   TRP C  12      26.255 -41.728  43.657  1.00  0.00    -0.347 N 
+ATOM      8  H   TRP C  12      25.492 -41.209  43.260  1.00  0.00     0.163 HD
+ATOM      9  O   CYS C  11      28.245 -42.745  43.375  1.00 67.54    -0.271 OA
+BRANCH   7  10
+ATOM     10  CA  TRP C  12      26.305 -42.045  45.081  1.00  0.00     0.167 C 
+BRANCH  10  11
+ATOM     11  C   TRP C  12      25.039 -42.739  45.526  1.00  0.00     0.219 C 
+ATOM     12  O   TRP C  12      23.947 -42.535  45.032  1.00  0.00    -0.287 OA
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  CB  TRP C  12      26.494 -40.731  45.889  1.00  0.00     0.074 C 
+BRANCH  13  14
+ATOM     14  CG  TRP C  12      27.850 -40.047  45.691  1.00  0.00    -0.028 A 
+ATOM     15  CD2 TRP C  12      29.077 -40.418  46.202  1.00  0.00    -0.002 A 
+ATOM     16  CE3 TRP C  12      29.454 -41.474  47.071  1.00  0.00     0.014 A 
+ATOM     17  CE2 TRP C  12      30.052 -39.535  45.674  1.00  0.00     0.042 A 
+ATOM     18  CZ3 TRP C  12      30.802 -41.607  47.404  1.00  0.00     0.001 A 
+ATOM     19  CH2 TRP C  12      31.767 -40.730  46.890  1.00  0.00     0.002 A 
+ATOM     20  CZ2 TRP C  12      31.411 -39.695  46.021  1.00  0.00     0.030 A 
+ATOM     21  NE1 TRP C  12      29.466 -38.603  44.830  1.00  0.00    -0.365 N 
+ATOM     22  HE1 TRP C  12      29.932 -37.873  44.281  1.00  0.00     0.165 HD
+ATOM     23  CD1 TRP C  12      28.099 -38.941  44.853  1.00  0.00     0.096 A 
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+BRANCH   5  24
+ATOM     24  CB  CYS C  11      26.166 -42.844  40.798  1.00 62.83     0.116 C 
+BRANCH  24  25
+ATOM     25  SG  CYS C  11      26.205 -42.915  39.006  1.00 77.56    -0.164 SA
+BRANCH  25  26
+HETATM   26  C20 PXS C 581      25.451 -41.345  38.619  1.00 78.99     0.108 C 
+HETATM   27  C19 PXS C 581      25.402 -41.170  37.236  1.00 77.33     0.165 C 
+HETATM   28  C18 PXS C 581      24.564 -42.308  36.629  1.00 68.25     0.212 C 
+HETATM   29  O21 PXS C 581      24.791 -40.067  36.909  1.00 79.60    -0.313 OA
+HETATM   30  O17 PXS C 581      23.546 -41.948  35.721  1.00 61.92    -0.319 OA
+HETATM   31  C16 PXS C 581      23.109 -42.942  34.822  1.00 59.74     0.258 C 
+HETATM   32  C15 PXS C 581      22.775 -42.553  33.365  1.00 54.89     0.111 C 
+HETATM   33  O39 PXS C 581      23.042 -44.075  35.168  1.00 63.98    -0.265 OA
+HETATM   34  C14 PXS C 581      21.805 -43.500  32.625  1.00 58.40     0.010 C 
+HETATM   35  C13 PXS C 581      20.395 -42.892  32.416  1.00 67.63     0.000 C 
+HETATM   36  C12 PXS C 581      19.162 -43.782  32.679  1.00 64.29     0.000 C 
+HETATM   37  C11 PXS C 581      17.833 -43.169  32.205  1.00 62.36     0.000 C 
+HETATM   38  C10 PXS C 581      16.557 -43.544  32.976  1.00 59.65     0.000 C 
+HETATM   39  C09 PXS C 581      15.365 -42.574  32.798  1.00 53.70     0.000 C 
+HETATM   40  C08 PXS C 581      13.945 -43.156  32.948  1.00 61.22     0.000 C 
+HETATM   41  C07 PXS C 581      12.766 -42.187  32.678  1.00 67.27     0.000 C 
+HETATM   42  C06 PXS C 581      11.369 -42.653  33.140  1.00 52.00     0.000 C 
+HETATM   43  C05 PXS C 581      10.194 -41.849  32.574  1.00 54.90     0.000 C 
+HETATM   44  C04 PXS C 581       9.194 -41.260  33.571  1.00 66.67     0.000 C 
+HETATM   45  C03 PXS C 581       8.116 -40.372  32.948  1.00 79.84    -0.000 C 
+HETATM   46  C02 PXS C 581       7.593 -39.248  33.843  1.00103.34    -0.005 C 
+HETATM   47  C01 PXS C 581       6.405 -38.448  33.297  1.00120.99     0.005 C 
+HETATM   48  C22 PXS C 581      25.385 -39.269  35.922  1.00 71.85     0.259 C 
+HETATM   49  O38 PXS C 581      26.355 -39.657  35.358  1.00 64.39    -0.265 OA
+HETATM   50  C23 PXS C 581      24.798 -37.859  35.712  1.00 67.97     0.111 C 
+HETATM   51  C24 PXS C 581      24.568 -37.412  34.252  1.00 63.67     0.010 C 
+HETATM   52  C25 PXS C 581      23.462 -38.126  33.438  1.00 67.15     0.000 C 
+HETATM   53  C26 PXS C 581      22.338 -38.828  34.215  1.00 60.72     0.000 C 
+HETATM   54  C27 PXS C 581      21.045 -37.996  34.327  1.00 55.00     0.000 C 
+HETATM   55  C28 PXS C 581      19.841 -38.485  33.496  1.00 58.87     0.000 C 
+HETATM   56  C29 PXS C 581      18.797 -39.328  34.264  1.00 62.24     0.000 C 
+HETATM   57  C30 PXS C 581      17.398 -38.693  34.408  1.00 59.97     0.000 C 
+HETATM   58  C31 PXS C 581      16.200 -39.619  34.157  1.00 70.72     0.000 C 
+HETATM   59  C32 PXS C 581      14.814 -38.964  34.271  1.00 75.84     0.000 C 
+HETATM   60  C33 PXS C 581      14.692 -37.536  33.696  1.00 76.76     0.000 C 
+HETATM   61  C34 PXS C 581      13.254 -36.978  33.611  1.00 79.55     0.000 C 
+HETATM   62  C35 PXS C 581      12.836 -35.982  34.705  1.00 86.42    -0.000 C 
+HETATM   63  C36 PXS C 581      11.861 -36.487  35.778  1.00 88.03    -0.005 C 
+HETATM   64  C37 PXS C 581      11.378 -35.431  36.780  1.00 96.19     0.005 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH   5  24
+ENDBRANCH   1   5
+TORSDOF 43
